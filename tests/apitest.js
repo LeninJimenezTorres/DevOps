@@ -3,16 +3,16 @@
 
 const supertest = require('supertest');
 const test = require('ava');
-const app = require('../app');
+//const app = require('../app');
 //import app from '../app';
-/*
+
 test('should pass',(t)=>{
     //const data={"message":"This is a test","to":"Juan Perez","from":"Rita Asturia","timeToLifeSec":45};
     t.pass()
 
     }
 );
-*/
+
 /*test('should pass',(t)=>{
     const data={"message":"This is a test","to":"Juan Perez","from":"Rita Asturia","timeToLifeSec":45};
     //t.pass()
