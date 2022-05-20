@@ -13,7 +13,7 @@ router.post('/', function(req, res){
     let myJson = req.body;      // your JSON
     let name = req.body.to;	// a value from your JSON
     var keys=Object.keys(req.body);
-    msg='{"message"   : "Hello '+(myJson["to"])+' your message will be send"}';
+    msg='{"message"   : "Hello '+(name)+' your message will be send"}';
     //msg=json({msg});
     //res.send('POST JSON RECIVE!!!!!!!!');	 // echo the result back
    //res.status(201).send(myJson["to"]);	 // echo the result back
