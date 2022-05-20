@@ -10,10 +10,10 @@ const app = express();
 
 const port = process.env.PORT || 8080;
 
+const hostname = '0.0.0.0';
 
 app.use(json());
 app.use(urlencoded({extended:false}));
-
 
 const cornsOptions ={
     origin:'*',
@@ -28,6 +28,6 @@ app.get('/', (req, res) => {
   res.send('Hello World .....!');
 })
 
-app.listen(port, () => {
+app.listen(port, hostname, () => {
   console.log(`Example app listening on port ${port}`);
 })
