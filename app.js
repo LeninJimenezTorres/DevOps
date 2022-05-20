@@ -25,7 +25,7 @@ app.use(cors(cornsOptions));
 app.use(router);
 
 app.get('/', (req, res) => {
-  res.send('API REST with NodeJS-Express, dockerized and CI with GitHub');
+  res.send('API REST with NodeJS-Express, dockerized and CI with GitHub | Test stage');
 })
 
 app.listen(port, hostname, () => {
