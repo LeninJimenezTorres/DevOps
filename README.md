@@ -1,6 +1,12 @@
 # DevOps
 BancoPichincha DevOps Test 
 
+## API
+The current APIRest is deployed in an AWS instance in the following url
+```markdown
+http://ec2-18-230-66-13.sa-east-1.compute.amazonaws.com:8080/
+```
+
 ## API REST FEATURES
 - BACKEND: NodeJs 
 - FRAMEWORK: Express
